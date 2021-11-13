@@ -1,0 +1,75 @@
+- What is AI?
+- Introduction to AI
+- Total 4 credits for this subject
+- Practicals based on python
+- Oral and Practical examination
+- No Mini project
+- Imeediate checking in practicals
+- 75M theory + 25M TT = 100 
+- Total 6 units. (1-KW, 2...5-CB, mostly 6-KW)
+
+COURSE OUTCOMES:
+- Learn about intelligent agents
+- Techniques of these agents.
+- Application of AI is to represent approaches and knowledge
+- Real world use cases of AI
+
+- Look at BFS and DFS via AI 
+- Some specific AI search functions
+- Optimize these agents and learn diff algorithms
+- AI agent should be able to capture knowledge and give solution based on a reasoning
+- Uncertainity
+- Plan methods of deciding a searching agent.
+- Introduce ML
+- AI is either NLP or autonomous bot or recommender systems or games
+
+- ELaine RIch and Kevin Knight is good for reading like a storybook
+- Russell and Norvig 2nd edition is great for understanding
+- PROLOG is for practicals
+
+WHAT IS AI?
+- Simulation of Human Intelligence
+- Solve problems like humans
+- Man made intelligence for humans
+- Self-correction and reasoning like humans
+- Make a computer make decisions
+- Think and act like a human
+- Should make rational decisions.
+
+Defn: Thinking humanly, acting humanly, thinking rationally, acting rationally.
+
+- How it thinks like a human and acts like a human
+
+DIFFERENT APPROACHES TO THINK & ACT LIKE A HUMAN:
+- ACTING HUMANLY
+	- Turing test by Alan Turing (1950)
+	- Differeniate between the machine answers and human answers
+	- This will prove it to be an intelligent machine.
+	
+	- Should have NLP to communicate successfully
+	- Store info and use it
+	- ML to adapt to new environments and learn continuously
+	- CV to see like humans
+	- Robotics to manipulate objects physically
+
+- THINKING HUMANLY
+	- Introspection: Start following your thoughts
+	- Create psychological experiments to focus on one detail at a time.
+	- Combination of AI + experimental psychology
+
+- THINKING RATIONALLY
+	- Make rational/ideal approach
+	- Aristotle said " Socrates ia a man. All men are mortal. Therefore I can say Socrates is mortal"
+	- Laws of thought = LOGIC
+	- Logic is what you apply to certain factors
+	- Difficult to represent informal language in something formal.
+	- Difficult to generalize logic
+
+- ACTING RATIONALLY:
+	- Agent (Software/Machine/etc) has to take a rational approach
+	- Agent should achieve best expected/possible outcome. Should always give some outcome and not stop due to lack of info.
+	- Acting rationally vs acting correctly.
+	- ADV: More generalized that Laws of thought and more amenable to scientific development than humans.
+
+	
+	

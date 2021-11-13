@@ -1,0 +1,16 @@
+ADBMS by Prof. Sudhir Bagul (SB)
+
+- 3 credis for theory + 1 credit for practical
+- 2 TT's of 25 mks. Avg will be taken.
+- 75 mks ESE theory paper
+- Oral and Practical examination will take place. (50 mks)
+- Total = 150 mks
+
+- Data is just a number.
+- We will be using lotus/db2/NOSql etc.
+- We will be analyse the data.
+- Next lecture we will learn hashing and indexing. Will require some DS knowledge.
+- Study from research papers as they are more relevent to current scenario.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

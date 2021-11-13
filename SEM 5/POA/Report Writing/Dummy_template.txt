@@ -1,0 +1,145 @@
+\documentclass[20,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum,graphicx}
+\title{Dummy Assignment}
+\author{Mr. Junaid Girkar ^1 \\ Mr. Dummy Name ^2\\
+^1D.J. Sanghvi College of Engineering \\ ^2 D.J. Sanghvi College of Engineering\\
+^1author@gmail.com\\ ^2author@gmail.com}
+\date{October 06, 2021}
+\begin{document}
+\maketitle
+% Introduction
+\section{Introduction}
+\lipsum[1]
+
+\section{Literature Survey}
+\subsection{Survey during 2001-2010}
+\lipsum[2]
+
+\subsection{Survey during 2011-2020}
+\lipsum[3]
+
+\section{Methodology}
+\lipsum[4]
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=2in,width=3in]{methodology.png}
+    \caption{Methodology}
+    \label{img1}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+         \hline
+         Method & Data Type \\
+         \hline
+         Indepth Analysis & Qualitative\\
+         \hline
+         Mall Analysis & Quantitative\\
+         \hline
+    \end{tabular}
+    \caption{Methodology Table}
+    \label{tab1}
+\end{table}
+
+
+\section{Experimental Setup}
+\lipsum[3]
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=2in,width=3in]{setup.png}
+    \caption{Experimental Setup}
+    \label{img2}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+         \hline
+         Environment & Diameter \\
+         \hline
+         Bright & 4,2\\
+         \hline
+         Dark & 4.8\\
+         \hline
+    \end{tabular}
+    \caption{Experiment Table}
+    \label{tab2}
+\end{table}
+
+\section{Results and Discussion}
+\lipsum[3]
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=2in,width=3in]{result.png}
+    \caption{Results}
+    \label{img3}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+         \hline
+         Test no & Result \\
+         \hline
+         1 & Pass\\
+         \hline
+         2 & Fail\\
+         \hline
+    \end{tabular}
+    \caption{Results Table}
+    \label{tab3}
+\end{table}
+
+
+%Conclusion
+\section{Conclusion}
+\lipsum[6]
+\bibliography{sample}
+
+\begin{thebibliography}{8}
+\bibitem{ref_article1}
+Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+
+\bibitem{ref_lncs1}
+Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+Springer, Heidelberg (2016). \doi{10.10007/1234567890}
+
+\bibitem{ref_book1}
+Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+Location (1999)
+
+\bibitem{ref_proc1}
+Author, A.-B.: Contribution title. In: 9th International Proceedings
+on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+\bibitem{ref_url1}
+LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
+Oct 2017
+
+\bibitem{ref_article1}
+Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+
+\bibitem{ref_lncs1}
+Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+Springer, Heidelberg (2016). \doi{10.10007/1234567890}
+
+\bibitem{ref_book1}
+Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+Location (1999)
+
+\bibitem{ref_proc1}
+Author, A.-B.: Contribution title. In: 9th International Proceedings
+on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+\bibitem{ref_url1}
+LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
+Oct 2017
+
+\end{thebibliography}
+
+
+\end{document}
