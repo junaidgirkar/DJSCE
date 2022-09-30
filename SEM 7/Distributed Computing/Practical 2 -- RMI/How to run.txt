@@ -1,0 +1,7 @@
+Source: https://www.tutorialspoint.com/java_rmi/java_rmi_application.htm
+
+COMMANDS:
+1. javac *.java
+2. start rmiregistry
+3. java Server
+4. java Client (Diff Terminal)
