@@ -1,0 +1,12 @@
+PS C:\Users\JARVIS\OneDrive - Shri Vile Parle Kelavani Mandal\Desktop\DJSCE\SEM 7\Distributed Computing\Practical 2 -- RMI> javac *.java   
+PS C:\Users\JARVIS\OneDrive - Shri Vile Parle Kelavani Mandal\Desktop\DJSCE\SEM 7\Distributed Computing\Practical 2 -- RMI> start rmiregistry
+PS C:\Users\JARVIS\OneDrive - Shri Vile Parle Kelavani Mandal\Desktop\DJSCE\SEM 7\Distributed Computing\Practical 2 -- RMI> java Server    
+Server ready
+The sum of 23 and 56 is: 79
+
+
+-------    -------- 	-------		------------	-------------	-----------	
+
+PS C:\Users\JARVIS\OneDrive - Shri Vile Parle Kelavani Mandal\Desktop\DJSCE\SEM 7\Distributed Computing\Practical 2 -- RMI> java Client    
+Enter two numbers: 23 56
+
