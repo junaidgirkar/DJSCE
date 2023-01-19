@@ -8,10 +8,12 @@ class LoadBalancer {
     int total = 0;
 
     for (int i = 0; i < servers; i++) {
-      if (extra-- > 0) total = each + 1; else total = each;
+      if (extra-- > 0)
+        total = each + 1;
+      else
+        total = each;
       System.out.println(
-        "Server " + (char) ('A' + i) + " has " + total + " Processes"
-      );
+          "Server " + (char) ('A' + i) + " has " + total + " Processes");
     }
   }
 
@@ -23,8 +25,7 @@ class LoadBalancer {
     while (true) {
       printLoad(servers, Processes);
       System.out.print(
-        "1.Add Servers 2.Remove Servers 3.Add Processes 4.Remove Processes 5.Exit: "
-      );
+          "1.Add Servers 2.Remove Servers 3.Add Processes 4.Remove Processes 5.Exit: ");
       switch (sc.nextInt()) {
         case 1:
           System.out.print("How many more servers?: ");

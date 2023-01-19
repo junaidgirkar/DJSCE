@@ -24,11 +24,11 @@ public class MutualServer implements Runnable {
   public void run() {
     try {
       BufferedReader in = new BufferedReader(
-        new InputStreamReader(socket.getInputStream())
-      );
+          new InputStreamReader(socket.getInputStream()));
       while (true) {
         System.out.println(in.readLine());
       }
-    } catch (Exception e) {}
+    } catch (Exception e) {
+    }
   }
 }

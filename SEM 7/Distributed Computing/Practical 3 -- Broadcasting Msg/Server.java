@@ -13,7 +13,8 @@ public class Server {
   public static void main(String[] args) throws Exception {
     ServerSocket listener = new ServerSocket(9001);
     System.out.println("The server is running at port 9001.");
-    while (true) new Handler(listener.accept()).start();
+    while (true)
+      new Handler(listener.accept()).start();
   }
 
   private static class Handler extends Thread {
@@ -34,9 +35,9 @@ public class Server {
         writers.add(out);
         while (true) {
           String input = in.readLine();
-          for (PrintWriter writer : writers) writer.println(
-            "MESSAGE " + name + ": " + input
-          );
+          for (PrintWriter writer : writers)
+            writer.println(
+                "MESSAGE " + name + ": " + input);
         }
       } catch (Exception e) {
         System.err.println(e);

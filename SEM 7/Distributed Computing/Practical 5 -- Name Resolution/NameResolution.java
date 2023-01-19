@@ -7,8 +7,7 @@ public class NameResolution {
     while (true) {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       System.out.println(
-        "\n Enter the website url (like google.com) to Resolve its Name to Address:"
-      );
+          "\n Enter the website url (like google.com) to Resolve its Name to Address:");
       String name = br.readLine();
       try {
         InetAddress ip = InetAddress.getByName(name);

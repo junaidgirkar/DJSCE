@@ -1,0 +1,7 @@
+module HelloApp{
+interface Hello {
+    // sayHello() is declared which can be replaced with own method declaration
+    string sayHello();oneway
+
+    void shutdown();
+};};
