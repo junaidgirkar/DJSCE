@@ -1,0 +1,83 @@
+import java.util.*;
+import java.lang.Math;
+import java.sql.Timestamp;
+
+public class Main
+{
+    public static void input(int[] arr){
+        for(int i=0; i<arr.length; i++){
+            double random = Math.random() * 100;
+            arr[i] = (int)random;
+        }
+    }
+    
+    public static void print(int[] arr){
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + "\t");
+        }
+        System.out.print("\n");
+    }
+    
+    public static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    
+    public static void random(int[] arr, int low, int high){
+        Random r = new Random();
+        int pivot = r.nextInt(high-low) + low;
+        swap(arr, high, pivot);
+    }
+    
+    public static int partition(int[] arr, int low, int high){
+        // print(arr);
+        random(arr, low, high);
+        int pivot = arr[high];
+        
+        int i = (low - 1);
+     
+        for(int j = low; j <= high - 1; j++)
+        {
+            if (arr[j] < pivot)
+            {
+                i++;
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i + 1, high);
+        return (i + 1);
+    }
+    
+    public static void quickSort(int[] arr, int low, int high){
+        if(low < high){
+            int pi = partition(arr, low, high);
+            
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+    
+	public static void main(String[] args) {
+	    int n;
+	    Scanner sc = new Scanner(System.in);
+	    System.out.print("Enter Array Size: ");
+	    n = sc.nextInt();
+	    Main obj = new Main();
+		int[] arr = new int[n];
+		obj.input(arr);
+		obj.print(arr);
+		Timestamp start = new Timestamp(System.currentTimeMillis());
+		long startTime = start.getTime();
+		
+		obj.quickSort(arr, 0, n - 1);
+		obj.print(arr);
+		
+		Timestamp end = new Timestamp(System.currentTimeMillis());
+		long endTime = end.getTime();
+		long timeTaken = endTime - startTime;
+		
+		System.out.println("Time Taken is: " + timeTaken + "ms");
+		
+	}
+}
